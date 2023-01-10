@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+*/node_modules
+*/packages
+
+*.o
+*.pyc
+/bin
+/obj
+*.log
+
+*.cache
+**/.angular/cache/*
+**/.vs/*
+.vs/*
