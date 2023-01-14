@@ -36,11 +36,15 @@
 
 *.o
 *.pyc
-/bin
-/obj
-*.log
 
+*.log
+*.jfm
 *.cache
 **/.angular/cache/*
 **/.vs/*
-.vs/*
+/.vs/*
+
+**/bin/*
+**/obj/*
+*.suo
+*.dbmdl
