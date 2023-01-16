@@ -9,5 +9,6 @@
         public bool Archived { get; set; }
         public DateTime DueDate { get; set; }
         public int Urgency { get; set; }
+        public Member Member { get; set; }
     }
 }

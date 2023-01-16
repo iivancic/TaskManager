@@ -10,12 +10,13 @@ export class FetchDataComponent {
   public forecasts: WeatherForecast[] = [];
   public assignments: Assignment[] = [];
 
+
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
     http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
       this.forecasts = result;
     }, error => console.error(error));
 
-    http.get<Assignment[]>(baseUrl + 'assignments').subscribe(result => {
+    http.get<Assignment[]>(baseUrl + 'assignment').subscribe(result => {
       this.assignments = result;
     }, error => console.error(error));
   }
@@ -29,5 +30,8 @@ interface WeatherForecast {
 }
 
 interface Assignment {
-  id: number;
+  assignee : string;
+  description : string;
+  dueDate: string;
 }
+

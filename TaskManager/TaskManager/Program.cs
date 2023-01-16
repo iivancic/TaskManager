@@ -1,12 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using TaskManager.Context;
 using TaskManager.Repository;
+using TaskManager.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<AssignmentService>();
 
 builder.Services.AddDbContext<AssignmentContext>(options =>
 {

@@ -41,7 +41,9 @@
   </thead>
   <tbody>
     <tr *ngFor="let assignment of assignments">
-      <td>{{ assignment.id }}</td>
+      <td>{{ assignment.assignee }}</td>
+      <td>{{ assignment.description }}</td>
+      <td>{{ assignment.dueDate }}</td>
     </tr>
   </tbody>
 </table>

@@ -15,7 +15,7 @@ namespace TaskManager.Repository
 
         public Task<List<Assignment>> GetAsync()
         {
-            return _context.Tasks.ToListAsync();
+            return _context.Tasks.Include(x => x.Member).ToListAsync();
         }
     }
 }
