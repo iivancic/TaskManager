@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager", "TaskManager\
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TaskManagerDatabaase", "TaskManagerDatabaase\TaskManagerDatabaase.sqlproj", "{98D94D3F-F333-4C21-8562-A38F0B224518}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{20A62790-CAD7-49AB-8AAA-2F49622E6799}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{731A8F74-9436-4FE1-8FA9-8FB4BDBC47EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{98D94D3F-F333-4C21-8562-A38F0B224518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D94D3F-F333-4C21-8562-A38F0B224518}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98D94D3F-F333-4C21-8562-A38F0B224518}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{20A62790-CAD7-49AB-8AAA-2F49622E6799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A62790-CAD7-49AB-8AAA-2F49622E6799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A62790-CAD7-49AB-8AAA-2F49622E6799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A62790-CAD7-49AB-8AAA-2F49622E6799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731A8F74-9436-4FE1-8FA9-8FB4BDBC47EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731A8F74-9436-4FE1-8FA9-8FB4BDBC47EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731A8F74-9436-4FE1-8FA9-8FB4BDBC47EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731A8F74-9436-4FE1-8FA9-8FB4BDBC47EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
